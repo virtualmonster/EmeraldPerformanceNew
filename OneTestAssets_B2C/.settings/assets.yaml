@@ -1,0 +1,728 @@
+name: OneTestAssets_B2C
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /OneTestAssets_B2C/libs/gson-2.8.6-javadoc.jar
+        type: javaClasspath
+      - path: /OneTestAssets_B2C/libs/gson-2.8.6.jar
+        type: javaClasspath
+      - path: /OneTestAssets_B2C/src
+        type: javaClasspath
+  - name: B2CFlow_1714126677639.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1714126677639
+      tags: 
+      testId: A1EB5762264F6255C668B46665366137
+      testName: B2CFlow
+    dependencies: 
+      - path: /OneTestAssets_B2C/B2CFlow_1714126677639_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2CFlow_1714126677639_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2CFlow_1714126677639_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2CFlow_1714126677639_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2CFlow_1714126680296.executiondlr
+        type: statsSessionAsset
+      - path: /OneTestAssets_B2C/Schedules_B2C/B2CFlow.testsuite
+        type: statsSessionTest
+  - name: B2CFlow_1714126677639_orch!system.mstats
+  - name: B2CFlow_1714126677639_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: B2CFlow_1714126677639_perf!localhost.mstats
+  - name: B2CFlow_1714126677639_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: B2CFlow_1714126680296.executiondlr
+  - name: B2CGuestFlow_1714119938624.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1714119938624
+      tags: 
+      testId: A1EF03A60E6D8FEDED0DB26661326434
+      testName: B2CGuestFlow
+    dependencies: 
+      - path: /OneTestAssets_B2C/B2CGuestFlow_1714119938624_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2CGuestFlow_1714119938624_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2CGuestFlow_1714119938624_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2CGuestFlow_1714119938624_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2CGuestFlow_1714119941087.executiondlr
+        type: statsSessionAsset
+      - path: /OneTestAssets_B2C/Schedules_B2C/B2CGuestFlow.testsuite
+        type: statsSessionTest
+  - name: B2CGuestFlow_1714119938624_orch!system.mstats
+  - name: B2CGuestFlow_1714119938624_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: B2CGuestFlow_1714119938624_perf!localhost.mstats
+  - name: B2CGuestFlow_1714119938624_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: B2CGuestFlow_1714119941087.executiondlr
+  - name: B2C_Homepage_1714119863969.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1714119863969
+      tags: 
+      testId: A1EB576225606D20C668B46665366137
+      testName: B2C_Homepage
+    dependencies: 
+      - path: /OneTestAssets_B2C/B2C_Homepage_1714119863969_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2C_Homepage_1714119863969_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2C_Homepage_1714119863969_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2C_Homepage_1714119863969_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2C_Homepage_1714119864880.executiondlr
+        type: statsSessionAsset
+      - path: /OneTestAssets_B2C/Modules_B2C/B2C_Homepage.testsuite
+        type: statsSessionTest
+  - name: B2C_Homepage_1714119863969_orch!system.mstats
+  - name: B2C_Homepage_1714119863969_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: B2C_Homepage_1714119863969_perf!localhost.mstats
+  - name: B2C_Homepage_1714119863969_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: B2C_Homepage_1714119864880.executiondlr
+  - name: B2C_Login_1714126574025.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1714126574025
+      tags: 
+      testId: A1EB5760380CEFE1C668B46665366137
+      testName: B2C_Login
+    dependencies: 
+      - path: /OneTestAssets_B2C/B2C_Login_1714126574025_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2C_Login_1714126574025_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2C_Login_1714126574025_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2C_Login_1714126574025_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/B2C_Login_1714126574309.executiondlr
+        type: statsSessionAsset
+      - path: /OneTestAssets_B2C/Modules_B2C/B2C_Login.testsuite
+        type: statsSessionTest
+  - name: B2C_Login_1714126574025_orch!system.mstats
+  - name: B2C_Login_1714126574025_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: B2C_Login_1714126574025_perf!localhost.mstats
+  - name: B2C_Login_1714126574025_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: B2C_Login_1714126574309.executiondlr
+  - name: Datasets
+    resources: 
+      - name: EmeraldUsers.csv
+        type: com.ibm.rational.test.lt.datapool
+        dependencies: 
+          - path: /OneTestAssets_B2C/Datasets/EmeraldUsers.csv.metadata
+            type: datasetMetadata
+      - name: EmeraldUsers.csv.metadata
+      - name: searchterm_oob.csv
+        type: com.ibm.rational.test.lt.datapool
+        dependencies: 
+          - path: /OneTestAssets_B2C/Datasets/searchterm_oob.csv.metadata
+            type: datasetMetadata
+      - name: searchterm_oob.csv.metadata
+      - name: userids.csv
+        type: com.ibm.rational.test.lt.datapool
+        dependencies: 
+          - path: /OneTestAssets_B2C/Datasets/userids.csv.metadata
+            type: datasetMetadata
+      - name: userids.csv.metadata
+  - name: Modules_B2C
+    resources: 
+      - name: B2C_AddBillingOrShippingAddress.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB57603798CD90C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetEmail.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickAddressType.java
+            type: testCustomCode
+      - name: B2C_CreateNewAddress.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB57622661B254C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetAllProductIdsFromCart.java
+            type: testCustomCode
+      - name: B2C_DeleteAddress.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB576037D142B0C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetAddressesName.java
+            type: testCustomCode
+      - name: B2C_DeleteFromCart.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB5762256F1786C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetAllProductIds.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/GetFirstOrderItemId.java
+            type: testCustomCode
+      - name: B2C_G_PickMultiProductsAndAddToCart.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB57603973CF20C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetOneNextCategory.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/IncreaseNumberOfItemsInCart.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickOneTopCategory.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickProduct.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickSKU.java
+            type: testCustomCode
+      - name: B2C_GoToCart.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB576039635498C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/PickAllSKUsFromCart_914.java
+            type: testCustomCode
+      - name: B2C_GoToCartAndClean.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB57603754BFB0C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetAllProductIds.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/GetFirstOrderItemId.java
+            type: testCustomCode
+      - name: B2C_GoToCheckout.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1ED3E8B9D96264CD765B56463386264
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetAddressId.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/GetAllProductIdsFromCart.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/GetEmail.java
+            type: testCustomCode
+      - name: B2C_Homepage.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB576225606D20C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetAllPartNumbers.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/GetAllProductIds.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/GetMarketingSpotActivityIds.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/SetNumberOfItemsInCart.java
+            type: testCustomCode
+      - name: B2C_Init.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB576226404611C668B46665366137
+      - name: B2C_Login.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB5760380CEFE1C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/Datasets/EmeraldUsers.csv
+            type: testDatapool
+          - path: /OneTestAssets_B2C/Datasets/userids.csv
+            type: testDatapool
+      - name: B2C_Logout.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB57622576B70FC668B46665366137
+      - name: B2C_PaymentInstructions.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB576037FDD0F0C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetAllProductIdsFromCart.java
+            type: testCustomCode
+      - name: B2C_PickProduct.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB5762252D799AC668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetOneNextCategory.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickOneTopCategory.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickProduct.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickSKU.java
+            type: testCustomCode
+      - name: B2C_PlaceOrder.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB576038322878C668B46665366137
+      - name: B2C_ProductDetails.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB576225A47B00C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/PickSKU.java
+            type: testCustomCode
+      - name: B2C_R_PickMultiProductsAndAddToCart.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB57603948C984C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetOneNextCategory.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/IncreaseNumberOfItemsInCart.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickOneTopCategory.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickProduct.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickSKU.java
+            type: testCustomCode
+      - name: B2C_ReviewOrder.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EB57603783E600C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/src/customcode/GetAllProductIdsFromCart.java
+            type: testCustomCode
+      - name: B2C_SearchBySearchterm.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.1.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1ED3DEA7EF8F580E2DCB63931343539
+        dependencies: 
+          - path: /OneTestAssets_B2C/.classpath
+            type: testJavaClasspath
+          - path: /OneTestAssets_B2C/Datasets/searchterm_oob.csv
+            type: testDatapool
+          - path: /OneTestAssets_B2C/src/customcode/CheckProductsReturnedFromSearchterm.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/GetPartialSearchterm.java
+            type: testCustomCode
+          - path: /OneTestAssets_B2C/src/customcode/PickProduct.java
+            type: testCustomCode
+  - name: RegisterUsers.recdata
+  - name: RegisterUsers.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /OneTestAssets_B2C/RegisterUsers.recdata
+        type: recsessionRecdata
+  - name: RegisterUsers.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.1.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EF03A7E71A7FB0ED0DB26661326434
+    dependencies: 
+      - path: /OneTestAssets_B2C/Datasets/EmeraldUsers.csv
+        type: testDatapool
+      - path: /OneTestAssets_B2C/RegisterUsers.recsession
+        type: testRecsession
+  - name: RegisterUsers_1714121036531.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1714121036531
+      tags: 
+      testId: A1EF03A7E71A7FB0ED0DB26661326434
+      testName: RegisterUsers
+    dependencies: 
+      - path: /OneTestAssets_B2C/RegisterUsers.testsuite
+        type: statsSessionTest
+      - path: /OneTestAssets_B2C/RegisterUsers_1714121036531_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714121036531_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714121036531_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714121036531_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714121036830.executiondlr
+        type: statsSessionAsset
+  - name: RegisterUsers_1714121036531_orch!system.mstats
+  - name: RegisterUsers_1714121036531_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: RegisterUsers_1714121036531_perf!localhost.mstats
+  - name: RegisterUsers_1714121036531_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: RegisterUsers_1714121036830.executiondlr
+  - name: RegisterUsers_1714124680968.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1714124680968
+      tags: 
+      testId: A1EF03A7E71A7FB0ED0DB26661326434
+      testName: RegisterUsers
+    dependencies: 
+      - path: /OneTestAssets_B2C/RegisterUsers.testsuite
+        type: statsSessionTest
+      - path: /OneTestAssets_B2C/RegisterUsers_1714124680968_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714124680968_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714124680968_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714124680968_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714124681298.executiondlr
+        type: statsSessionAsset
+  - name: RegisterUsers_1714124680968_orch!system.mstats
+  - name: RegisterUsers_1714124680968_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: RegisterUsers_1714124680968_perf!localhost.mstats
+  - name: RegisterUsers_1714124680968_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: RegisterUsers_1714124681298.executiondlr
+  - name: RegisterUsers_1714126099169.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1714126099169
+      tags: 
+      testId: A1EF03A7E71A7FB0ED0DB26661326434
+      testName: RegisterUsers
+    dependencies: 
+      - path: /OneTestAssets_B2C/RegisterUsers.testsuite
+        type: statsSessionTest
+      - path: /OneTestAssets_B2C/RegisterUsers_1714126099169_orch!system.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714126099169_orch!system.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714126099169_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714126099169_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /OneTestAssets_B2C/RegisterUsers_1714126099506.executiondlr
+        type: statsSessionAsset
+  - name: RegisterUsers_1714126099169_orch!system.mstats
+  - name: RegisterUsers_1714126099169_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: RegisterUsers_1714126099169_perf!localhost.mstats
+  - name: RegisterUsers_1714126099169_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: RegisterUsers_1714126099506.executiondlr
+  - name: Schedules_B2C
+    resources: 
+      - name: B2CCleanCarts.testsuite
+        type: com.ibm.rational.test.lt.schedule
+        version: 11.0.1.0
+        properties: 
+          description: 'Stages:
+
+	users=1; duration=Run Until Finished
+
+User Group 3: Group Size 100.0 percent
+
+	Test(s): B2C_Homepage,B2C_Login,B2C_GoToCartAndClean,B2C_Logout
+
+'
+          name: B2CCleanCarts
+          type: com.ibm.rational.test.common.schedule.Schedule
+          uid: A1EB576038257D30C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_GoToCartAndClean.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Homepage.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Login.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Logout.testsuite
+            type: scheduleInvokedTest
+      - name: B2CDeleteFromCart.testsuite
+        type: com.ibm.rational.test.lt.schedule
+        version: 11.0.1.0
+        properties: 
+          description: 'Stages:
+
+	users=100; duration=150 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): B2C_Homepage,B2C_Login,B2C_R_PickMultiProductsAndAddToCart,B2C_GoToCart,B2C_DeleteFromCart,B2C_Logout
+
+'
+          name: B2CDeleteFromCart
+          type: com.ibm.rational.test.common.schedule.Schedule
+          uid: A1EB5760397CAA0EC668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_DeleteFromCart.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_GoToCart.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Homepage.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Login.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Logout.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_R_PickMultiProductsAndAddToCart.testsuite
+            type: scheduleInvokedTest
+      - name: B2CFlow.testsuite
+        type: com.ibm.rational.test.lt.schedule
+        version: 11.0.1.0
+        properties: 
+          description: 'Stages:
+
+	users=5; duration=1 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): B2C_Homepage,B2C_Login,B2C_R_PickMultiProductsAndAddToCart,B2C_GoToCart,B2C_GoToCheckout,B2C_PaymentInstructions,B2C_ReviewOrder,B2C_PlaceOrder,B2C_Logout,B2C_Homepage,B2C_Login,B2C_PickProduct,B2C_Logout,B2C_Homepage,B2C_Login,B2C_SearchBySearchterm,B2C_ProductDetails,B2C_Logout,B2C_Homepage,B2C_G_PickMultiProductsAndAddToCart,B2C_GoToCart,B2C_GoToCheckout,B2C_CreateNewAddress,B2C_PaymentInstructions,B2C_ReviewOrder,B2C_PlaceOrder,B2C_Homepage,B2C_PickProduct,B2C_Homepage,B2C_SearchBySearchterm,B2C_ProductDetails
+
+'
+          name: B2CFlow
+          type: com.ibm.rational.test.common.schedule.Schedule
+          uid: A1EB5762264F6255C668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_CreateNewAddress.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_G_PickMultiProductsAndAddToCart.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_GoToCart.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_GoToCheckout.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Homepage.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Login.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Logout.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_PaymentInstructions.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_PickProduct.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_PlaceOrder.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_ProductDetails.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_R_PickMultiProductsAndAddToCart.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_ReviewOrder.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_SearchBySearchterm.testsuite
+            type: scheduleInvokedTest
+      - name: B2CGuestFlow.testsuite
+        type: com.ibm.rational.test.lt.schedule
+        version: 11.0.1.0
+        properties: 
+          description: 'Stages:
+
+	users=5; duration=1 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): B2C_Homepage,B2C_Login,B2C_R_PickMultiProductsAndAddToCart,B2C_GoToCart,B2C_GoToCheckout,B2C_PaymentInstructions,B2C_ReviewOrder,B2C_PlaceOrder,B2C_Logout,B2C_Homepage,B2C_Login,B2C_PickProduct,B2C_Logout,B2C_Homepage,B2C_Login,B2C_SearchBySearchterm,B2C_ProductDetails,B2C_Logout,B2C_Homepage,B2C_G_PickMultiProductsAndAddToCart,B2C_GoToCart,B2C_GoToCheckout,B2C_CreateNewAddress,B2C_PaymentInstructions,B2C_ReviewOrder,B2C_PlaceOrder,B2C_Homepage,B2C_PickProduct,B2C_Homepage,B2C_SearchBySearchterm,B2C_ProductDetails
+
+'
+          name: B2CGuestFlow
+          type: com.ibm.rational.test.common.schedule.Schedule
+          uid: A1EF03A60E6D8FEDED0DB26661326434
+        dependencies: 
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_CreateNewAddress.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_G_PickMultiProductsAndAddToCart.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_GoToCart.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_GoToCheckout.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Homepage.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_PaymentInstructions.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_PickProduct.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_PlaceOrder.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_ProductDetails.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_ReviewOrder.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_SearchBySearchterm.testsuite
+            type: scheduleInvokedTest
+      - name: B2CMyAccount.testsuite
+        type: com.ibm.rational.test.lt.schedule
+        version: 11.0.1.0
+        properties: 
+          description: 'Stages:
+
+	users=1; duration=10 minutes
+
+User Group 3: Group Size 100.0 percent
+
+	Test(s): B2C_Homepage,B2C_Login,B2C_AddBillingOrShippingAddress,B2C_DeleteAddress,B2C_Logout
+
+'
+          name: B2CMyAccount
+          type: com.ibm.rational.test.common.schedule.Schedule
+          uid: A1EB57622548EFBFC668B46665366137
+        dependencies: 
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_AddBillingOrShippingAddress.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_DeleteAddress.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Homepage.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Login.testsuite
+            type: scheduleInvokedTest
+          - path: /OneTestAssets_B2C/Modules_B2C/B2C_Logout.testsuite
+            type: scheduleInvokedTest
+  - name: libs
+    resources: 
+      - name: gson-2.8.6-javadoc.jar
+      - name: gson-2.8.6.jar
+  - name: src
+    resources: 
+      - name: customcode
+        resources: 
+          - name: CheckProductsReturnedFromSearchterm.java
+          - name: GetAddressId.java
+          - name: GetAddressesName.java
+          - name: GetAllPartNumbers.java
+          - name: GetAllProductIds.java
+          - name: GetAllProductIdsFromCart.java
+          - name: GetEmail.java
+          - name: GetFirstOrderItemId.java
+          - name: GetMarketingSpotActivityIds.java
+          - name: GetOneNextCategory.java
+          - name: GetPartialSearchterm.java
+          - name: IncreaseNumberOfItemsInCart.java
+          - name: PickAddressType.java
+          - name: PickAllSKUsFromCart_914.java
+          - name: PickOneTopCategory.java
+          - name: PickProduct.java
+          - name: PickSKU.java
+          - name: SetNumberOfItemsInCart.java
+      - name: test
+        resources: 
+          - name: B2CFlow_Schedule_A1EB5762264F6255C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2CGuestFlow_Schedule_A1EF03A60E6D8FEDED0DB26661326434.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_CreateNewAddress_Test_A1EB57622661B254C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_G_PickMultiProductsAndAddToCart_Test_A1EB57603973CF20C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_GoToCart_Test_A1EB576039635498C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_GoToCheckout_Test_A1ED3E8B9D96264CD765B56463386264.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_Homepage_Test_A1EB576225606D20C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_Login_Test_A1EB5760380CEFE1C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_Logout_Test_A1EB57622576B70FC668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_PaymentInstructions_Test_A1EB576037FDD0F0C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_PickProduct_Test_A1EB5762252D799AC668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_PlaceOrder_Test_A1EB576038322878C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_ProductDetails_Test_A1EB576225A47B00C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_R_PickMultiProductsAndAddToCart_Test_A1EB57603948C984C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_ReviewOrder_Test_A1EB57603783E600C668B46665366137.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: B2C_SearchBySearchterm_Test_A1ED3DEA7EF8F580E2DCB63931343539.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: RegisterUsers_Test_A1EF03A7E71A7FB0ED0DB26661326434.java
+            type: com.ibm.rational.test.lt.generatedCode
